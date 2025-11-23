@@ -1,0 +1,3 @@
+[submodule "dependencies/orbis-zycore-c"]
+	path = dependencies/orbis-zycore-c
+	url = https://github.com/Prefixmodz/orbis-zycore-c.git
