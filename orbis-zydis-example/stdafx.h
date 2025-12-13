@@ -9,3 +9,7 @@
 
 #include <stdio.h>
 #include <string.h>
+
+
+#include <Zydis/Encoder.h>
+#include "EncoderXor_Ex.h"

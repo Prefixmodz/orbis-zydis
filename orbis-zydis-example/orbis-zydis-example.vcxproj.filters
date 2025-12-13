@@ -9,6 +9,12 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;pssli</Extensions>
     </Filter>
+    <Filter Include="Source Files\Examples">
+      <UniqueIdentifier>{1e0c19f7-50fc-48b0-bd7a-bf6d105ccfed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Examples">
+      <UniqueIdentifier>{73f6cf69-2f7f-43fb-94de-7d1b3d061ea5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="prx.cpp">
@@ -17,10 +23,16 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EncoderXor_Ex.cpp">
+      <Filter>Source Files\Examples</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncoderXor_Ex.h">
+      <Filter>Header Files\Examples</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

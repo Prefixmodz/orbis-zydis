@@ -49,7 +49,7 @@ extern "C" {
 /**
  * The zydis module id.
  */
-#define ZYAN_MODULE_ZYDIS   0x002u
+#define ZYAN_MODULE_ZYDIS 0x002u
 
 /* ---------------------------------------------------------------------------------------------- */
 /* Status codes                                                                                   */
@@ -67,7 +67,7 @@ extern "C" {
     ZYAN_MAKE_STATUS(1u, ZYAN_MODULE_ZYDIS, 0x00u)
 
 /**
- * An general error occured while decoding the current instruction. The
+ * A general error occured while decoding the current instruction. The
  * instruction might be undefined.
  */
 #define ZYDIS_STATUS_DECODING_ERROR \
